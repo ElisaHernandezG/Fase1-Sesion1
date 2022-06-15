@@ -5,6 +5,7 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    font-family: 'Alegreya', serif;
 }
 
 p{
@@ -21,9 +22,13 @@ button {
 .header{
     margin:40px 20px 0px;
     font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
 }
 li{
     display: inline;
+    margin: 0 25px;
+    color: #025157;
 }
 .header>*{
 display: inline-block;
@@ -41,17 +46,35 @@ vertical-align: middle;
 }
 .navbar{
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 900;
-
+    height: 45px;
+    font-family: sans-serif;
+   
+    
 }
 
 .action{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    
+}
+.actions >*{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.actions a{
+    color: #67b54b;
+}
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
 .main {
     margin-top: 140px;
