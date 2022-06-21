@@ -1,5 +1,5 @@
 body {
-    background-color: #fffbf7;
+    background-color: wheat;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 
 p{
     color: #8b8b8bcc;
-    font-family: Verdana;
+    font-family: 'Cinzel', serif;
     font-size: 20px;
     text-align: center;
 }
@@ -56,13 +56,10 @@ vertical-align: middle;
     width: 70%;
     text-align: left;
     color: #025157;
-    font-weight: 900;
+    font-weight: 500;
     height: 45px;
-    font-family: sans-serif;
-   
-    
+    font-family: sans-serif;   
 }
-
 .action{
     width: 15%;
     text-align: left;
