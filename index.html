@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Matcha</title>
    <!-- <style>
         h1 {
             color: #025157;
         }
     </style> -->
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Cinzel&family=Dancing+Script:wght@400;700&family=Lobster&family=Lobster+Two:ital,wght@0,700;1,700&family=Open+Sans:wght@300&family=Roboto:wght@400;900&family=Slabo+27px&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Cinzel&family=Dancing+Script:wght@400;700&family=Lobster&family=Lobster+Two:ital,wght@0,700;1,700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section class="fixed-header">
+   <!--<section class="fixed-header">
     <header class="header">
         <a href="/" class="logo">
             <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Logo matcha">
         </a>
         <nav class="navbar">
-            <!--Acciones-->
+            !--Acciones--
         <ul>
             <li>Products</li>
             <li>Templates</li>
@@ -39,7 +40,43 @@
             <button>Get a Demo</button>
         </div>
     </header>
-</section>
+</section> --> 
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
     <section class="main">
      <h1>Build your blog. Build your business</h1> 
      <p>Instantly publish articles, drive more traffic,
@@ -55,9 +92,11 @@
         <p>Start publishing today with a <strong>free 7-day
             trial.</strong></p>
          <p><strong>No credit card</strong> required.</p>   
+         <figure class="banner">
          <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Imagen de capterra"> 
         <img width="800px" margin="auto" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png"  alt="Estadisticas matcha"></div>>
-      </section>
+    </figure>
+    </section>
       <section class="promo">
         <article class="explanatory-video">
         <video 
@@ -86,7 +125,90 @@
         </form>
     </article>
       </section>
-    <section class="success-stories">
+
+      <section class="features">    
+        <article class="feature-card">
+            <div class="feature-content">
+            <figure>
+            <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png" alt="Publish icon">
+        </figure>
+        <h3>Fill your blog with engagin articles.</h3>
+        <p>Publish to your blog in less time than it takes to drink
+            your morning coffe.
+        </p>
+        <a href="">Publish instantly -></a>
+    </div>
+    <div class="feature-image">
+        <figure>
+            <img
+          src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
+          alt="Publish example">
+        </figure>
+    </div>
+        </article>
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Site traffic icon">
+                </figure>
+                <h3>Attract and engage more website visitors.</h3>
+                    <p>Enhace your email, social media channels, and 
+                        paid ads with content from Matcha.
+                    </p>
+                    <a href="">Get more site traffic -></a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img
+                    src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"
+                    alt="Site traffic example">
+                </figure>
+            </div>
+        </article>
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Capture icon"/>
+                </figure>
+                <h3>Capture more emails with locked content</h3>
+                <p>Convert 10x more of your traffic into Subscribers
+                    and nurture them to a sale. 
+                </p>
+                <a href="">Grow your email list faster -></a>
+            </div>     
+            <div class="feature-image">
+                <figure>
+                <img
+          src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
+          alt="Capture example"
+        />
+    </figure>
+            </div>
+    </article>
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="ROI icon">
+                </figure>
+                <h3>Optimize your blog´s performance.</h3>
+                <p>See what content delivers the most
+                    traffic, engagement, email subscribers,
+                    and sales. 
+                </p>
+                <a href="">See content´s ROI</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img
+                    src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
+                    alt="ROI example"
+                  />
+                </figure>
+            </div>
+        </article>
+    </section>
+
+    <!--<section class="success-stories">
         <article class="overview">
         <h2>Growing ecommerce brands rely on Matcha.</h2>
        <p>Are you tired of wasting time publishing blog articles to only
@@ -97,6 +219,7 @@
         <button>
             Who Uses Matcha?
         </button> 
+     
         <div class="logomarcas">   
                 <img src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" alt="Brands">
         </div>  
@@ -117,11 +240,10 @@
                     See Case Study
                 </button>
             </div>
-            
-            
-        
     </article> 
     </section>
+-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
